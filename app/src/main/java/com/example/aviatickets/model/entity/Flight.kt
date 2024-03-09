@@ -2,9 +2,6 @@ package com.example.aviatickets.model.entity
 
 import com.google.gson.annotations.SerializedName
 
-/**
- * think about json deserialization considering its snake_case format
- */
 data class Flight(
     @SerializedName("departure_location")
     val departureLocation: Location,
